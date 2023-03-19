@@ -69,7 +69,7 @@ PElement GetAdptArrayAt(PAdptArray pArr, int idx){
 }
 
 int GetAdptArraySize(PAdptArray pArr){
-    if (pArr==NULL || pArr->ArrSize < 1) {
+    if (pArr==NULL) {
         printf("array not found");
         return -1;
     }
